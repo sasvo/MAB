@@ -1,0 +1,6 @@
+\\spazio\profili_studenti$\5aiinf15\Documents\TEPI\ABM\AMBServer\AMBServer\bin\Debug\AMBServer.exe.config
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\AMBServer\AMBServer\obj\Debug\AMBServer.csprojResolveAssemblyReference.cache
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\AMBServer\AMBServer\bin\Debug\AMBServer.exe
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\AMBServer\AMBServer\bin\Debug\AMBServer.pdb
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\AMBServer\AMBServer\obj\Debug\AMBServer.exe
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\AMBServer\AMBServer\obj\Debug\AMBServer.pdb
