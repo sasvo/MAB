@@ -1,0 +1,104 @@
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe.config
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.pdb
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csprojResolveAssemblyReference.cache
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.baml
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.baml
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\App.g.cs
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.cache
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.lref
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.baml
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.baml
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.baml
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.baml
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.g.resources
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.Properties.Resources.resources
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.GenerateResource.Cache
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
+\\spazio\profili_studenti$\5AIINF11\Documents\Tepi\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe.config
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.pdb
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csprojResolveAssemblyReference.cache
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.baml
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.baml
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\App.g.cs
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.cache
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.lref
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.baml
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.baml
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.baml
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.baml
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.g.resources
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.Properties.Resources.resources
+\\spazio\profili_studenti$\5AIINF15\Documents\TEPI\ABM\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.GenerateResource.Cache
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe.config
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.pdb
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.AssemblyReference.cache
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Login.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Login.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\App.g.cs
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.cache
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.lref
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.baml
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.g.resources
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.Properties.Resources.resources
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.GenerateResource.cache
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.CoreCompileInputs.cache
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe.config
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.pdb
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.AssemblyReference.cache
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe.config
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Login.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Login.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\App.g.cs
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.cache
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.lref
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.baml
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.g.resources
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.Properties.Resources.resources
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.GenerateResource.cache
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.CoreCompileInputs.cache
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
+C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
+C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe.config

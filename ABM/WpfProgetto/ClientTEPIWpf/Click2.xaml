@@ -1,0 +1,50 @@
+﻿<Window x:Class="ClientTEPIWpf.Click2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientTEPIWpf"
+        mc:Ignorable="d"
+        Title="Click2" Height="450" Width="800" Background="#FF005FD6"
+        WindowState="Maximized"
+        WindowStyle="None">
+    <Viewbox Stretch="Uniform">
+        <Grid Background="#FF005FD6" Width="800" Height="450">
+            <Button x:Name="BtHome" Content="Home" HorizontalAlignment="Left" Height="30" Margin="162,391,0,0" VerticalAlignment="Top" Width="100" Click="BtHome_Click" Background="#FFDDDDDD" FontFamily="Times New Roman" FontWeight="Bold">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <ListBox x:Name="LBNotizie" HorizontalAlignment="Left" Height="268" Margin="31,104,0,0" VerticalAlignment="Top" Width="364" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True" FontFamily="Times New Roman"/>
+            <TextBlock x:Name="TBSettore" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="400,104,0,0" Height="27" Width="72" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            <TextBlock x:Name="TBArgomento" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="477,104,0,0" Height="27" Width="72" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            <TextBlock x:Name="TBArea" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="554,104,0,0" Height="27" Width="72" TextAlignment="Center" Foreground="Black" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            <TextBlock x:Name="TBTitolo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="631,104,0,0" Height="27" Width="72" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            <TextBlock x:Name="TBData" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="72" Margin="708,104,0,0" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            <TextBlock x:Name="TBContenuto" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="400,136,0,0" Height="236" Width="380" Foreground="Black" Background="#FFCBCBCB" FontFamily="Times New Roman"/>
+            <Button x:Name="BTInvia" Content="Invia" HorizontalAlignment="Left" Height="30" Margin="539,387,0,0" VerticalAlignment="Top" Width="100" Click="BTInvia_Click" FontFamily="Times New Roman" FontWeight="Bold">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <TextBlock Margin="197,-4,197,0"
+                TextWrapping="Wrap"
+                VerticalAlignment="Top"
+                Text="ABM"
+                FontFamily="Times New Roman"
+                FontWeight="Bold"
+                TextDecorations="Underline"
+                TextAlignment="Center"
+                Foreground="White"
+                FontSize="90">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="2" Opacity="1"/>
+                </TextBlock.Effect>
+            </TextBlock>
+        </Grid>
+    </Viewbox>
+</Window>
