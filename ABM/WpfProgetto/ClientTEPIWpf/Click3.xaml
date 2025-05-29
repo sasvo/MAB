@@ -14,13 +14,13 @@
     <Viewbox Stretch="Uniform">
         <Grid Background="#FF005FD6" Width="800" Height="450">
             <DatePicker x:Name="DPFirst" HorizontalAlignment="Left" Height="28" Margin="29,160,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.504,0.573" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <DatePicker x:Name="DPFinally" HorizontalAlignment="Left" Height="28" Margin="226,160,0,0" VerticalAlignment="Top" Width="160" FontFamily="Times New Roman" FontWeight="Bold"/>
+            <DatePicker x:Name="DPFinally" HorizontalAlignment="Left" Height="28" Margin="226,160,0,0" VerticalAlignment="Top" Width="160" FontFamily="Times New Roman" FontWeight="Bold" Text="a"/>
             <TextBox x:Name="TBSettore" HorizontalAlignment="Left" Height="28" Margin="29,213,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="160" Text="Settore" FontFamily="Times New Roman" FontWeight="Bold" TextAlignment="Center" GotFocus="txtSettore_GotFocus"
-             LostFocus="txtSettore_LostFocus"/>
+             LostFocus="txtSettore_LostFocus" MaxLength="100"/>
             <TextBox x:Name="TBArgomento" HorizontalAlignment="Left" Height="29" Margin="226,212,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="160" Text="Argomento" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold" GotFocus="txtArgomento_GotFocus"
-             LostFocus="txtArgomento_LostFocus"/>
+             LostFocus="txtArgomento_LostFocus" MaxLength="100"/>
             <TextBox x:Name="TBArea" HorizontalAlignment="Left" Height="29" Margin="423,213,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="192" Text="Area" FontFamily="Times New Roman" FontWeight="Bold" TextAlignment="Center" GotFocus="txtArea_GotFocus"
-             LostFocus="txtArea_LostFocus"/>
+             LostFocus="txtArea_LostFocus" MaxLength="100"/>
             <Button Content="Invia" HorizontalAlignment="Left" Height="28" Margin="226,272,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click" FontFamily="Times New Roman" FontWeight="Bold">
                 <Button.Resources>
                     <Style TargetType="Border">

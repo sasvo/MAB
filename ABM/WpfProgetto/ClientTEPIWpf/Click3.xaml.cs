@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace ClientTEPIWpf
 {
@@ -24,11 +14,35 @@ namespace ClientTEPIWpf
             InitializeComponent();
         }
 
+        private bool ControlloIntegrita()
+        {
+            if (string.IsNullOrWhiteSpace(TBSettore.Text) || string.IsNullOrWhiteSpace(TBArgomento.Text) || DPFirst.SelectedDate == null || DPFinally.SelectedDate == null || string.IsNullOrWhiteSpace(TBArea.Text))
+            {
+                MessageBox.Show("Per favore completa tutti i campi.");
+                return false;
+            }
+            if (TBSettore.Text.Contains('/') || TBArgomento.Text.Contains('/') || TBArea.Text.Contains('/'))
+            {
+                MessageBox.Show("Il carattere '/' non è accettato.");
+                return false;
+            }
+            if (DPFirst.SelectedDate > DPFinally.SelectedDate)
+            {
+                MessageBox.Show("La data iniziale non può essere più grande di quella finale.");
+                return false;
+            }
+            return true;
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string schema = string.Format("{0}/{1}/{2}",TBSettore.Text , TBArgomento.Text, TBArea.Text);
+            if (!ControlloIntegrita())
+                return;
+
+            string schema = string.Format("{0}/{1}/{2}", TBSettore.Text, TBArgomento.Text, TBArea.Text);
             string dataInizio = DPFirst.SelectedDate.Value.ToString();
             string dataFine = DPFinally.SelectedDate.Value.ToString();
+
 
             GestioneClient client = new GestioneClient();
             client.SendSchemaData(schema, dataInizio, dataFine);

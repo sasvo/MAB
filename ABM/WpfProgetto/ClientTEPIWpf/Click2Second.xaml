@@ -21,13 +21,37 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <TextBlock x:Name="TBSettore" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="284,100,0,0" Height="23" Width="91" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBArgomento" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="380,100,0,0" Height="23" Width="91" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBArea" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="476,100,0,0" Height="23" Width="91" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBTitolo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="572,100,0,0" Height="23" Width="92" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBData" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="91" Margin="669,100,0,0" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBContenuto" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="283,128,0,0" Height="230" Width="476" Background="#FFCBCBCB" FontFamily="Times New Roman"/>
+            <ScrollViewer x:Name="SVSettore" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="284,100,0,0" Height="23" Width="91" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBSettore" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVArgomento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="380,100,0,0" Height="23" Width="91" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBArgomento" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVArea" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="476,100,0,0" Height="23" Width="91" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBArea" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVTitolo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="572,100,0,0" Height="23" Width="92" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBTitolo" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVData" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="669,100,0,0" Height="23" Width="91" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBData" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVContenuto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="283,128,0,0" Height="230" Width="476" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBContenuto" TextWrapping="Wrap" Background="#FFCBCBCB" FontFamily="Times New Roman"/>
+            </ScrollViewer>
+
+
             <TextBlock HorizontalAlignment="Center" Height="87" TextWrapping="Wrap"  VerticalAlignment="Top" Width="334"  Text="ABM" FontFamily="Times New Roman" FontWeight="Bold" TextDecorations="Underline" TextAlignment="Center" Foreground="White" FontSize="87">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="2" Opacity="1"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="27" TextWrapping="Wrap"  VerticalAlignment="Top" Width="200"  Text="Notizie recenti simili" FontFamily="Times New Roman" TextAlignment="Center" Foreground="White" FontSize="22" Margin="56,73,0,0" FontWeight="Bold">
                 <TextBlock.Effect>
                     <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="2" Opacity="1"/>
                 </TextBlock.Effect>

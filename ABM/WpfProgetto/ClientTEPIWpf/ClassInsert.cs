@@ -28,9 +28,9 @@ namespace ClientTEPIWpf
         public string Contenuto {  get; set; }
         public string Schema { get { return string.Format("{0}/{1}/{2}", Settore, Argomento, Area); } }
 
-        public string  ToString(string settore, string area,  string titolo, string data, string argomento,string contenuto)
+        public string ToString(string settore, string area,  string titolo, string data, string argomento,string contenuto)
         {
-            return string.Format("{0}/{1}/{2}/{3}/{4}/{5}", settore, area, titolo, data, argomento, contenuto);
+            return string.Format("{0}/{1}/{2}/{3}/{4}/{5}", settore, argomento, area, titolo, contenuto, data);
         }
 
         public ClassInsert(string settore, string argomento, string area, string titolo, string corpo, string data)

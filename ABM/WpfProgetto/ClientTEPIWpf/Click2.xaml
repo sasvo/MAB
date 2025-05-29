@@ -18,12 +18,30 @@
                 </Button.Resources>
             </Button>
             <ListBox x:Name="LBNotizie" HorizontalAlignment="Left" Height="268" Margin="31,104,0,0" VerticalAlignment="Top" Width="364" SelectionChanged="ListBox_SelectionChanged" IsSynchronizedWithCurrentItem="True" FontFamily="Times New Roman"/>
-            <TextBlock x:Name="TBSettore" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="400,104,0,0" Height="27" Width="72" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBArgomento" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="477,104,0,0" Height="27" Width="72" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBArea" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="554,104,0,0" Height="27" Width="72" TextAlignment="Center" Foreground="Black" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBTitolo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="631,104,0,0" Height="27" Width="72" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBData" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="72" Margin="708,104,0,0" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
-            <TextBlock x:Name="TBContenuto" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="400,136,0,0" Height="236" Width="380" Foreground="Black" Background="#FFCBCBCB" FontFamily="Times New Roman"/>
+            <ScrollViewer x:Name="SVSettore" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,104,0,0" Height="27" Width="72" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBSettore" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVArgomento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="477,104,0,0" Height="27" Width="72" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBArgomento" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVArea" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="554,104,0,0" Height="27" Width="72" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBArea" TextWrapping="Wrap" TextAlignment="Center" Foreground="Black" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVTitolo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="631,104,0,0" Height="27" Width="72" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBTitolo" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVData" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="708,104,0,0" Height="27" Width="72" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBData" TextWrapping="Wrap" TextAlignment="Center" Background="#FFCBCBCB" FontFamily="Times New Roman" FontWeight="Bold"/>
+            </ScrollViewer>
+
+            <ScrollViewer x:Name="SVContenuto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,136,0,0" Height="236" Width="380" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="TBContenuto" TextWrapping="Wrap" Foreground="Black" Background="#FFCBCBCB" FontFamily="Times New Roman"/>
+            </ScrollViewer>
+
             <Button x:Name="BTInvia" Content="Invia" HorizontalAlignment="Left" Height="30" Margin="539,387,0,0" VerticalAlignment="Top" Width="100" Click="BTInvia_Click" FontFamily="Times New Roman" FontWeight="Bold">
                 <Button.Resources>
                     <Style TargetType="Border">
