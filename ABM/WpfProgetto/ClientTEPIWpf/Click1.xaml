@@ -7,15 +7,15 @@ WindowStyle="None">
         <Grid Background="#FF004CBE" Width="496" Height="350">
             <DatePicker x:Name="DataDP" Grid.ColumnSpan="3" HorizontalAlignment="Left" Margin="381,92,0,0" VerticalAlignment="Top" Width="89" Opacity="0.8" FontFamily="Times New Roman" FontWeight="Bold"/>
             <TextBox x:Name="contenutoDP" HorizontalAlignment="Left" Height="145" TextWrapping="Wrap" Text="Inserire il corpo della notizia" VerticalAlignment="Top" Width="450" Margin="20,125,0,0" Grid.Column="1" Grid.ColumnSpan="2" Opacity="0.8" GotFocus="txtContenutoDP_GotFocus"
-             LostFocus="txtContenutoDp_LostFocus" FontFamily="Times New Roman" TextAlignment="Justify" FontWeight="Bold" />
+             LostFocus="txtContenutoDp_LostFocus" FontFamily="Times New Roman" TextAlignment="Justify" FontWeight="Bold" MaxLength="1600" IsUndoEnabled="True" />
             <TextBox x:Name="SettoreTB" Text="Settore" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="23" Margin="20,92,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="85" Opacity="0.8" GotFocus="txtSettore_GotFocus"
-             LostFocus="txtSettore_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold" />
+             LostFocus="txtSettore_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold" MaxLength="100" />
             <TextBox x:Name="ArgomentoTB" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="23" Margin="111,92,0,0" TextWrapping="Wrap" Text="Argomento" VerticalAlignment="Top" Width="85" Opacity="0.8" GotFocus="txtArgomento_GotFocus"
-             LostFocus="txtArgomento_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold"/>
+             LostFocus="txtArgomento_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold" MaxLength="100"/>
             <TextBox x:Name="AreaTB" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="23" Margin="201,92,0,0" TextWrapping="Wrap" Text="Area" VerticalAlignment="Top" Width="85" Opacity="0.8" GotFocus="txtArea_GotFocus"
-             LostFocus="txtArea_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold"/>
+             LostFocus="txtArea_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold" MaxLength="100"/>
             <TextBox x:Name="TitoloTB" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="23" Margin="291,92,0,0" TextWrapping="Wrap" Text="Titolo" VerticalAlignment="Top" Width="85" Opacity="0.8" GotFocus="txtTitolo_GotFocus"
-             LostFocus="txtTitolo_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold"/>
+             LostFocus="txtTitolo_LostFocus" FontFamily="Times New Roman" TextAlignment="Center" FontWeight="Bold" MaxLength="100"/>
             <Button Grid.ColumnSpan="3" Content="Indietro" HorizontalAlignment="Left" Margin="84,289,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Opacity="0.8" FontFamily="Times New Roman" Height="20" FontWeight="Bold">
                 <Button.Resources>
                     <Style TargetType="Border">

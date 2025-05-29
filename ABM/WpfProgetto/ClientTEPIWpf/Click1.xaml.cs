@@ -1,20 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Markup;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 
 
@@ -39,13 +27,31 @@ namespace ClientTEPIWpf
             // Chiudi la finestra corrente (MainWindow)
             this.Close();
         }
+        private bool ControlloIntegrita()
+        {
+            if (string.IsNullOrWhiteSpace(SettoreTB.Text) || string.IsNullOrWhiteSpace(ArgomentoTB.Text) || DataDP.SelectedDate == null || string.IsNullOrWhiteSpace(AreaTB.Text) || string.IsNullOrWhiteSpace(TitoloTB.Text) || string.IsNullOrWhiteSpace(contenutoDP.Text))
+            {
+                MessageBox.Show("Per favore completa tutti i campi.");
+                return false;
+            }
+            if (SettoreTB.Text.Contains('/') || ArgomentoTB.Text.Contains('/') || AreaTB.Text.Contains('/') || TitoloTB.Text.Contains('/') || contenutoDP.Text.Contains('/'))
+            {
+                MessageBox.Show("Il carattere '/' non è accettato.");
+                return false;
+            }
+            if (DataDP.SelectedDate > DateTime.Now)
+            {
+                MessageBox.Show("La data della notizia non può essere futura.");
+                return false;
+            }
 
+            return true;
+        }
         private void BtAdd_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(SettoreTB.Text) || string.IsNullOrWhiteSpace(ArgomentoTB.Text) || DataDP.SelectedDate == null || string.IsNullOrWhiteSpace(AreaTB.Text) || string.IsNullOrWhiteSpace(TitoloTB.Text) || string.IsNullOrWhiteSpace(contenutoDP.Text))            {
-                MessageBox.Show("Per favore completa tutti i campi.");
+            if (!ControlloIntegrita())
                 return;
-            }
+
             List<ClassInsert> insert = new List<ClassInsert>();
             var notizia = new ClassInsert
             (
@@ -54,19 +60,19 @@ namespace ClientTEPIWpf
                 AreaTB.Text,
                 TitoloTB.Text,
                 contenutoDP.Text,
-                DataDP.SelectedDate.Value.ToString().Replace('/','-')
+                DataDP.SelectedDate.Value.ToString().Replace('/', '-')
             );
 
             insert.Add(notizia);
             MessageBox.Show("notizia inserita correttamente");
             SettoreTB.Text = "Settore";
-            AreaTB.Text= "Area";
-            ArgomentoTB.Text="Argomento";
+            AreaTB.Text = "Area";
+            ArgomentoTB.Text = "Argomento";
             TitoloTB.Text = "titolo";
             DataDP.SelectedDate.Value.Equals(null);
             contenutoDP.Text = "Inserire il corpo della notizia";
 
-            
+
             foreach (var n in insert)
             {
                 GestioneClient.WriteLog("./notizie.txt", GestioneClient.SerializeNews(n));

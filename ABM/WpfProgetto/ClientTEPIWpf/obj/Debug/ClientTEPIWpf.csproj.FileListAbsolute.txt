@@ -102,3 +102,55 @@ C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\
 C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
 C:\Users\giuli_ikfajdg\OneDrive\Desktop\SCUOLA\TEPI\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
 C:\Users\giuli\Desktop\documenti scuola\tepi\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe.config
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe.config
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.pdb
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.AssemblyReference.cache
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe.config
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.baml
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.baml
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click1.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\MainWindow.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\App.g.cs
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.cache
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.lref
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2.baml
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click2Second.baml
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3.baml
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\Click3Second.baml
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.g.resources
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.Properties.Resources.resources
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.GenerateResource.cache
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.CoreCompileInputs.cache
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
+C:\Users\sales\Downloads\TepiProgetto 1 (1)\TepiProgetto 1\TepiProgetto\TepiProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe.config
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.exe
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\bin\Debug\ClientTEPIWpf.pdb
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.AssemblyReference.cache
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe.config
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click1.baml
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\MainWindow.baml
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click1.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click2.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click2Second.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click3.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click3Second.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\MainWindow.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\App.g.cs
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.cache
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf_MarkupCompile.lref
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click2.baml
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click2Second.baml
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click3.baml
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\Click3Second.baml
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.g.resources
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.Properties.Resources.resources
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.GenerateResource.cache
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.csproj.CoreCompileInputs.cache
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.exe
+C:\Users\sales\source\repos\sasvo\MAB\ABM\WpfProgetto\ClientTEPIWpf\obj\Debug\ClientTEPIWpf.pdb
