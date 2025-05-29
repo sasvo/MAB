@@ -49,7 +49,8 @@ namespace AMBServer
             {
 
                 byte[] bufReceive = ReadFromStream(stream);
-                string msg = System.Text.Encoding.ASCII.GetString(bufReceive);
+                string msg = System.Text.Encoding.UTF32.GetString(bufReceive);
+                Console.WriteLine(msg);
                 string command = msg.Substring(0, msg.IndexOf('<'));
                 string info = msg.Substring(msg.IndexOf('<') + 1, msg.IndexOf('>') - (msg.IndexOf('<') + 1));
                 switch (command)
@@ -58,9 +59,12 @@ namespace AMBServer
                     case "RECEIVE":     //RECEIVE<notizia>
                         {
                             Notizia notizia = new Notizia(DeserializeNews(info));
+                            
                             Console.WriteLine(notizia.dataInDatetime.AddDays(-recente).ToShortDateString());
-                            FindSimilar(notizia.Schema, notizia.dataInDatetime.AddDays(-recente).ToShortDateString().Replace('/', '-'), notizia.Data);
+                            FindSimilar(notizia.Schema, notizia.dataInDatetime.AddDays(-recente), notizia.dataInDatetime);
                             SendMultipleNews(notizieSimili, stream);
+                            stream.Close();
+                            client.Close();
                             WriteLog(notizie, SerializeNews(notizia));
 
                             break;
@@ -70,19 +74,25 @@ namespace AMBServer
                             string[] details = info.Split('/');
                             string schema = details[0] + "/" + details[1] + "/" + details[2];
                             string dataInizio = details[3];
+                            DateTime inizio;
+                            if(!DateTime.TryParse(dataInizio, out inizio))
+                                break;
                             string dataFine = details[4];
-                            FindSimilar(schema, dataInizio, dataFine);
+                            DateTime fine;
+                            if (!DateTime.TryParse(dataFine, out fine))
+                                break;
+                            FindSimilar(schema, inizio, fine);
                             SendMultipleNews(notizieSimili, stream);
+                            stream.Close();
+                            client.Close();
                             break;
                         }
 
                     default:
                         {
-                            Console.WriteLine("GAGAGAGAGA");
+                            Console.WriteLine("Se entra qui c'è qualche problema di fondo");
                             break;
                         }
-
-
 
                 }
 
@@ -91,18 +101,30 @@ namespace AMBServer
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-            }
-            finally
-            {
                 stream.Close();
                 client.Close();
             }
+            finally
+            {
+                Console.WriteLine("Client disconnesso, get out");
+            }
 
         }
-
+        static bool NewsExist(string notizia)
+        {
+            StreamReader reader = new StreamReader(notizie);
+            while (!reader.EndOfStream)
+            {
+                string riga = reader.ReadLine();
+                if (notizia == riga)
+                    return true;
+            }
+            reader.Close();
+            return false;
+        }
         static void WriteOnStream(NetworkStream stream, string msg)
         {
-            byte[] sendBuffer = System.Text.Encoding.ASCII.GetBytes(msg);
+            byte[] sendBuffer = System.Text.Encoding.UTF32.GetBytes(msg);
             stream.Write(sendBuffer, 0, sendBuffer.Length);
         }
         static byte[] ReadFromStream(NetworkStream stream)
@@ -145,11 +167,13 @@ namespace AMBServer
         static void WriteLog(string filepath, string content)
         {
             semaforoLog.WaitOne();
+            if (NewsExist(content))
+                return;
             File.AppendAllLines(filepath,   new[] { content });
             semaforoLog.Release();
 
         }
-        static void FindSimilar(string schema, string startDate, string endDate)
+        static void FindSimilar(string schema, DateTime startDate, DateTime endDate)
         {
             semaforoAppoggio.WaitOne();
             StreamReader reader = new StreamReader(notizie);
@@ -158,7 +182,7 @@ namespace AMBServer
             {
                 string riga = reader.ReadLine();
                 Notizia current = DeserializeNews(riga);
-                if (current.Schema == schema)
+                if (current.Schema == schema && current.dataInDatetime >= startDate && current.dataInDatetime <= endDate)
                     writer.WriteLine(riga);
             }
             reader.Close();
@@ -166,6 +190,43 @@ namespace AMBServer
             semaforoAppoggio.Release();
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
         /*
         static void BinaryReceive(string path, NetworkStream stream)

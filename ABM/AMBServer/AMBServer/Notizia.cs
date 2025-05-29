@@ -42,5 +42,6 @@ namespace AMBServer
             Corpo = corpo;
             Data = data;
         }
+        
     }
 }
