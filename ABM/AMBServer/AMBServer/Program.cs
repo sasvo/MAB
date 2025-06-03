@@ -81,14 +81,14 @@ namespace AMBServer
                             DateTime inizio;
                             if (!DateTime.TryParse(dataInizio, out inizio))
                             {
-                                Console.WriteLine("pippo1");
+                                Console.WriteLine("Data di inizio inserita non correttamente");
                                 break;
                             }
                             string dataFine = details[4];
                             DateTime fine;
                             if (!DateTime.TryParse(dataFine, out fine))
                             {
-                                Console.WriteLine("pippo2");
+                                Console.WriteLine("Data di fine inserita non correttamente");
                                 break;
                             }
                             Console.WriteLine("Sto per iniziare a trovare");
