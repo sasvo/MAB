@@ -63,7 +63,7 @@ namespace AMBServer
                             Notizia notizia = new Notizia(DeserializeNews(info));
 
                             Console.WriteLine("Data inizio recente: " + notizia.dataInDatetime.AddDays(-recente).ToShortDateString());
-                            FindSimilar(notizia.Schema, notizia.dataInDatetime.AddDays(-recente), notizia.dataInDatetime);
+                            FindSimilar(notizia.Schema, DateTime.Now.AddDays(-recente), DateTime.Now);
                             SendMultipleNews(notizieSimili, stream);
                             stream.Close();
                             client.Close();
